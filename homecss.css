@@ -1,0 +1,155 @@
+           
+                              
+      body {
+        background-image: url('images/cloud.jpg');
+        background-size: cover;
+        background-color: rgb(20, 201, 186);
+        font-family: 'Allerta';
+        color: white;
+        background-attachment: fixed;
+        margin: 0;
+      }
+      main{
+        padding-top: 70px;
+      }
+      header{
+        color: rgb(252, 193, 2);
+        top: 0;
+        left: 0;
+        right: 0;
+        height : 50px;
+        text-align: center;
+        color: black;
+        margin: 0; 
+    }
+
+    /*#bod{
+      background-color: white;
+      width : 100%;
+    }
+*/
+    h5{
+      font-size: 0.9em;
+    }
+
+    h4,h3{
+      text-align: center;
+      font-size: 1.3em;
+    }
+
+img{
+  border-radius: 2%;
+  width: 100%;
+}
+
+#contact{
+  margin: 20px;
+}
+
+#details{
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+}
+
+#dets {
+  margin: 100px;
+
+}
+
+#work, #academic, #lead, #skills, #abilities{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  border-radius: 3%;
+}
+
+p, li{
+  font-family: 'Arial';
+  font-size: 20px;
+}
+
+nav a{
+ display: block;
+  float: left; 
+  width: 16.6%; 
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav a.headings{
+  width: 100%;
+}
+
+
+nav{
+  background-image: url('images/lamp.jpg');
+  background-size: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  height: 50px;
+}
+
+nav a:hover{
+  background-color: rgb(44, 177, 187);
+} 
+
+nav span a:hover{
+  background-color: rgb(44, 177, 187);
+}
+
+      
+      h1, h2 {
+        text-align: center;
+        height: 20px;
+      }
+
+      h1{
+        font-size: 105px;
+        padding-bottom: 100px;
+      }
+      
+      h2{
+        color: rgba(255, 166, 34, 0.959);
+      }
+
+      /*#spacing {
+        margin-bottom: 50px;
+        margin-left: 40px;
+      }
+      */  
+      .container {
+        width:500px;
+        height: 500px;
+      }
+
+      .resize{
+        opacity: 1;
+        width: 50%;
+        height: 50%;
+      }
+      
+      * {
+          box-sizing: border-box;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        margin-top : 2%;
+      }
+      
+      div.row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      img.icon{
+        width: 5%;
+        height: 5%;
+      }
+      
